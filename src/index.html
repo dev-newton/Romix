@@ -1,0 +1,1097 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="Webpixels" />
+    <title>Romicxpress</title>
+    <!-- Preloader -->
+    <style>
+      @keyframes hidePreloader {
+        0% {
+          width: 100%;
+          height: 100%;
+        }
+
+        100% {
+          width: 0;
+          height: 0;
+        }
+      }
+
+      body > div.preloader {
+        position: fixed;
+        background: white;
+        width: 100%;
+        height: 100%;
+        z-index: 1071;
+        opacity: 0;
+        transition: opacity 0.5s ease;
+        overflow: hidden;
+        pointer-events: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      body:not(.loaded) > div.preloader {
+        opacity: 1;
+      }
+
+      body:not(.loaded) {
+        overflow: hidden;
+      }
+
+      body.loaded > div.preloader {
+        animation: hidePreloader 0.5s linear 0.5s forwards;
+      }
+    </style>
+    <script>
+      window.addEventListener("load", function () {
+        setTimeout(function () {
+          document.querySelector("body").classList.add("loaded");
+        }, 300);
+      });
+    </script>
+    <!-- Favicon -->
+    <!-- <link rel="icon" href="assets/img/brand/favicon.png" type="image/png" /> -->
+    <!-- <h3 style="color: #eaa221">Romicxpress</h3> -->
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="assets/libs/@fortawesome/fontawesome-free/css/all.min.css"
+    />
+    <!-- Quick CSS -->
+    <link
+      rel="stylesheet"
+      href="assets/css/quick-website.css"
+      id="stylesheet"
+    />
+  </head>
+
+  <body>
+    
+    <!-- <div class="preloader">
+      <div class="spinner-border text-primary" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+    </div> -->
+    <!-- <div
+      class="modal fade"
+      tabindex="-1"
+      role="dialog"
+      id="modal-cookies"
+      data-backdrop="false"
+      aria-labelledby="modal-cookies"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-aside left-4 right-4 bottom-4">
+        <div class="modal-content bg-dark-dark">
+          <div class="modal-body">
+            
+            <p class="text-sm text-white mb-3">
+              We use cookies so that our themes work for you. By using our
+              website, you agree to our use of cookies.
+            </p>
+            
+            <a
+              href="pages/utility/terms.html"
+              class="btn btn-sm btn-white"
+              target="_blank"
+              >Learn more</a
+            >
+            <button
+              type="button"
+              class="btn btn-sm btn-primary mr-2"
+              data-dismiss="modal"
+            >
+              OK
+            </button>
+          </div>
+        </div>
+      </div>
+    </div> -->
+   
+    <nav  class="navbar navbar-expand-lg navbar-light bg-white " style="position: fixed; width: 100%; ">
+      <div class="container">
+        <!-- Brand -->
+        <a class="navbar-brand" href="index.html">
+          <img style="height: 50px; width: 70px;"
+            alt="Image placeholder"
+             src="assets/img/svg/illustrations/logo.png"
+            id="navbar-logo"
+          />
+          <!-- <h3 style="color: #eaa221">Romicxpress</h3> -->
+        </a>
+        <!-- Toggler -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarCollapse"
+          aria-controls="navbarCollapse"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Collapse -->
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mt-4 mt-lg-0 ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item dropdown dropdown-animate" data-toggle="hover">
+              <a class="nav-link" href="#about-us">About us</a>
+  
+            </li>
+         
+
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+          <!-- Button -->
+          <!-- <a
+            class="navbar-btn btn btn-sm btn-primary d-none d-lg-inline-block ml-3"
+            href="https://github.com/webpixels/quick-website-ui-kit-demo/archive/master.zip"
+          >
+            Download Free
+          </a> -->
+          <!-- Mobile button -->
+          <!-- <div class="d-lg-none text-center">
+            <a
+              href="https://webpixels.io/themes/quick-website-ui-kit"
+              class="btn btn-block btn-sm btn-warning"
+              >See more details</a
+            >
+          </div> -->
+        </div>
+      </div>
+    </nav>
+    <!-- Main content -->
+    <section id="home" class="slice py-7 hero-image">
+      <div class="container">
+        <div class="row row-grid align-items-center">
+          <!-- <div class="col-12 col-md-5 col-lg-6 order-md-2 text-center">
+            <!-- Image -->
+            <!-- <figure class="w-100">
+              <img
+                alt="Image placeholder"
+                src="assets/img/svg/illustrations/oil.jpg"
+                style="border-radius: 10px"
+                class="img-fluid mw-md-120"
+              />
+            </figure> -->
+          </div> -->
+          <div class="col-12 col-md-7 col-lg-9 order-md-1 pr-md-8">
+            <!-- Heading -->
+            <h1 class="display-3 text-center text-md-left mb-3">
+              <!-- It's time to amplify your -->
+              <strong style="color: white; ">Logistics & Procurement</strong>
+            </h1>
+            <!-- Text -->
+            <p style="color: white;"  class="lead text-center text-md-left  ">
+              We assure you of delivering only world class logistics & procurement service, nothing is spared in ensuring that the client’s expectation is met and exceeded.
+
+            </p>
+            <!-- Buttons -->
+            <div class="text-center text-md-left mt-5">
+              <!-- <a
+                href="https://webpixels.io/themes/quick-free-bootstrap-theme"
+                class="btn btn-primary btn-icon"
+                target="_blank"
+              > -->
+                <!-- <span class="btn-inner--text">Get started</span> -->
+                <!-- <span class="btn-inner--icon" -->
+                  
+                  <!-- <i data-feather="chevron-right"></i -->
+                <!-- ></span> -->
+              <!-- </a> -->
+              <!-- <a
+                href="https://webpixels.io/illustrations"
+                class="btn btn-neutral btn-icon d-none d-lg-inline-block"
+                target="_blank"
+                >See Illustrations</a
+              > -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="services"  class="slice slice-lg pt-lg-6 pb-0 pb-lg-6 bg-section-secondary">
+      <div class="container">
+        <!-- Title -->
+        <!-- Section title -->
+        <div class="row mb-5 justify-content-center text-center">
+          <div class="col-lg-6">
+            <span class="">
+            <h2>Services</h2> 
+              <hr>
+            </span>
+            <!-- <h2 class="mt-4">
+              Carefuly crafted components ready to use in your project
+            </h2> -->
+            <div class="mt-2">
+              <!-- <p class="lead lh-180">
+                Use Atomic Design to build components, sections and, then,
+                pages.
+              </p> -->
+            </div>
+          </div>
+        </div>
+        <!-- Card -->
+        <div class="row mt-5">
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-body pb-5">
+                <div class="pt-4 pb-5">
+                  <img
+                    src="assets/img/svg/illustrations/pexels-markus-spiske-104346.jpg"
+                    class="img-fluid img-center"
+                    style="height: 150px"
+                    alt="Illustration"
+                  />
+                </div>
+                <h5 class="h4 lh-130 mb-3">LOGISTICS & CUSTOMS CLEARANCE</h5>
+                <p class="text-muted mb-0">
+                    We are a licensed customs agent at all Nigeria Ports. Our services are customized per specific customer application and then we apply proven project management, process accountability and management to bring together a logistical solution that completes the supply chain.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-body pb-5">
+                <div class="pt-4 pb-5">
+                  <img
+                    src="assets/img/svg/illustrations/export-tom-fisk-3856433.jpg"
+                    class="img-fluid img-center"
+                    style="height: 150px; width: 250px "
+                    alt="Illustration"
+                  />
+                </div>
+                <h5 class="h4 lh-130 mb-3">IMPORT/EXPORT</h5><br>
+                <p class="text-muted mb-0">
+                  
+                 We engage in the export of cash crops and commodities such as charcoal, spices and cashew nuts. With a passion for business and economic growth, Romic Xpress seeks to take advantage of the emerging export market, making available local commodities to the international market.
+
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-body pb-5">
+                <div class="pt-4 pb-5">
+                  <img
+                    src="assets/img/svg/illustrations/truck.jpg"
+                    class="img-fluid img-center"
+                    style="height: 150px"
+                    alt="Illustration"
+                  />
+                </div>
+                <h5 class="h4 lh-130 mb-3">TRANSPORT/HAULAGE</h5><br />
+                <p class="text-muted mb-0">
+                    Our Fleet currently comprises air-conditioned sedan/MPV taxis, Coaster Buses, Hiace Buses, and pick up trucks driven by well mannered and courteous drivers. With two years experience in the transport/haulage business, we boast of a broad knowledge of the roads and routes of Lagos and its environs.
+
+
+                </p>
+              </div>
+            </div>
+          </div>
+
+
+
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card-body pb-5">
+                  <div class="pt-4 pb-5">
+                    <img
+                      src="assets/img/svg/illustrations/pexels-brett-sayles-5326748.jpg"
+                      class="img-fluid img-center"
+                      style="height: 150px"
+                      alt="Illustration"
+                    />
+                  </div>
+                  <h5 class="h4 lh-130 mb-3"> IT SUPPLY, MAINTENANCE & INSTALLATION</h5>
+                  <p class="text-muted mb-0">
+                    
+
+                    For supply, installation and maintenance of your IT equipments (software/hardware), Romic Xpress Logistics has IT solutions to meet your every need and put you at ease.
+                    
+                    
+                     
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card-body pb-5">
+                  <div class="pt-4 pb-5">
+                    <img
+                      src="assets/img/svg/illustrations/pexels-karolina-grabowska-4498124.jpg"
+                      class="img-fluid img-center"
+                      style="height: 150px"
+                      alt="Illustration"
+                    />
+                  </div>
+                  <h5 class="h4 lh-130 mb-3">PROCUREMENT</h5>
+                  <p class="text-muted mb-0">
+                    
+
+                   We also undertake the local and international procurement and supply of office furniture/equipments, stationery and appliances at the very best prices and the finest quality. Whatever your need, we will procure and ensure that you get only the finest quality.
+
+                   
+  
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card-body pb-5">
+                  <div class="pt-4 pb-5">
+                    <img
+                      src="assets/img/svg/illustrations/outsourcing-anna-shvets-3727464.jpg"
+                      class="img-fluid img-center"
+                      style="height: 150px"
+                      alt="Illustration"
+                    />
+                  </div>
+                  <h5 class="h4 lh-130 mb-3">OUTSOURCING</h5>
+                  <p class="text-muted mb-0">
+
+
+
+                   At Romic Xpress, we provide HR consulting for Professionals selecting the most suitable candidates for clients based on their requirements. We provide talented professionals who match position specifications via a complete recruitment process. 
+                     
+  
+  
+                  </p>
+                </div>
+              </div>
+            </div>
+  
+  
+            
+          </div>
+      </div>
+    </section>
+
+
+    <section
+     id="about-us"
+    >
+      <div class="container py-5">
+        <div class="row row-grid align-items-center">
+          <div class="col-lg-6  ">
+
+            <span class="">
+              <h2> About Us</h2> 
+                <hr>
+              </span>
+            <!-- Heading -->
+            <p class= "mb-4 h6 lh-180 mb-3 text-muted">
+              Romic Xpress Logistics Limited is a procurement and logistics company. Romic Xpress Logistics Limited is registered under the Companies and Allied matters act 1990 with RC number 1504274 under the Nigerian Corporate Affairs Commission.<br>
+
+              We are an indigenous company offering services in Logistics, Procurement, Import/Export, Transport/Haulage, Consultancy, Pre-Shipment Documentation and Customs Clearance to mention a few.<br>
+              
+              Romic Xpress is a multi-faceted corporation driven by a passion for excellence; its activities are anchored on professionalism and a drive for excellent customer delivery. With a focus on delivering only world class service, nothing is spared in ensuring that the client’s expectation is met and exceeded.<br>
+              
+              With representation in the six geo-political zones of Nigeria, we have always strategically positioned ourselves to better serve our customers, anywhere and under whatever condition.<br>
+              
+             
+            </p>
+
+          </div>
+          <div  class="col-lg-6">
+          <img height="600" width="600"
+          style=""
+          alt="Image placeholder"
+          src="assets/img/svg/illustrations/export-tom-fisk-3856433.jpg"
+          id=""
+        />
+          
+          
+          
+<!--           
+          class="col-lg-6" style="
+            background-image: url(assets/img/svg/illustrations/export-tom-fisk-3856433.jpg);
+          "
+          class="slice py-8"  
+        >
+             -->
+           
+          
+           
+          </div>
+
+
+        </div>
+      </div>
+      <!-- SVG separator -->
+      <!-- <div class="shape-container shape-line shape-position-bottom">
+        <svg
+          width="2560px"
+          height="100px"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          preserveAspectRatio="none"
+          x="0px"
+          y="0px"
+          viewBox="0 0 2560 100"
+          style="enable-background: new 0 0 2560 100"
+          xml:space="preserve"
+          class=""
+        >
+          <polygon points="2560 0 2560 100 0 100"></polygon>
+        </svg>
+      </div> -->
+    </section>
+
+
+    <section class="slice slice-lg mt-4">
+      <div class="container text-center">
+        <h4><span class="badge badge-lg badge-primary badge-pill text-center" style="background-color: #3ea4f4; color: white;">Our vision</span></h4>
+        <div class="row mt-4">
+          <div class="col-lg-12 pr-lg-5 ">
+            <p class="h5 lh-180 mb-3">
+              To continually be at the apex of excellent product and service
+              delivery in all our chosen markets.
+            </p>
+          </div>
+          <div class="col-lg-6">
+            <!-- <p class="lead lh-180">
+              She exposed painted fifteen are noisier mistake led waiting.
+              Surprise not wandered speedily husbands although yet end. Are
+              court tiled cease young built fat one man taken. We highest ye
+              friends is exposed equally in. Ignorant had too strictly followed.
+            </p>
+            <p class="lead lh-180">
+              Form face evening above years for i fruitful us creature void
+              days. Upon upon fruitful us fill earth was set tree above yielding
+              to air image cattle seed night lesser saying. Gathered, fourth
+              wherein air.
+            </p> -->
+          </div>
+        </div>
+      </div>
+      <div class="container text-center">
+          <h4><span class="badge  badge-lg badge-primary badge-pill text-center" style="background-color: #3ea4f4; color: white;">Our mission</span></h4>
+        <div class="row mt-4">
+          <div class="col-lg-12 pr-lg-5">
+            <p class="h5 lh-180 mb-3 ">
+              To provide cost-effective, befitting business solutions and be the
+              vanguard in the provision of these services, which will ensure
+              that the very needs of our customers are continually met.
+            </p>
+          </div>
+          <div class="col-lg-6">
+            <!-- <p class="lead lh-180">
+              She exposed painted fifteen are noisier mistake led waiting.
+              Surprise not wandered speedily husbands although yet end. Are
+              court tiled cease young built fat one man taken. We highest ye
+              friends is exposed equally in. Ignorant had too strictly followed.
+            </p>
+            <p class="lead lh-180">
+              Form face evening above years for i fruitful us creature void
+              days. Upon upon fruitful us fill earth was set tree above yielding
+              to air image cattle seed night lesser saying. Gathered, fourth
+              wherein air.
+            </p> -->
+          </div>
+        </div>
+      </div>
+      <div class="container text-center">
+        <h4 ><span class="badge badge-lg badge-secondary badge-pill text-center h1" style="background-color: #3ea4f4; color: white;"> Our values</span></h4>
+        <div class="row mt-4">
+          <div class="col-lg-12 pr-lg-5 ">
+            <p class="h5 mb-3 ">
+              To provide cost-effective, befitting business solutions
+            </p>
+          </div>
+          <div class="col-lg-6">
+            <!-- <p class="lead lh-180">
+              She exposed painted fifteen are noisier mistake led waiting.
+              Surprise not wandered speedily husbands although yet end. Are
+              court tiled cease young built fat one man taken. We highest ye
+              friends is exposed equally in. Ignorant had too strictly followed.
+            </p>
+            <p class="lead lh-180">
+              Form face evening above years for i fruitful us creature void
+              days. Upon upon fruitful us fill earth was set tree above yielding
+              to air image cattle seed night lesser saying. Gathered, fourth
+              wherein air.
+            </p> -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- <section class="slice slice-lg">
+      <div class="container">
+        <div class="py-6">
+          <div class="row row-grid justify-content-between align-items-center">
+            <div class="col-lg-5 order-lg-2">
+              <h5 class="h3">Need a quick admin panel for your website?</h5>
+              <p class="lead my-4">
+                With Quick you get components and examples, including tons of
+                variables that will help you customize this theme with ease.
+              </p>
+              <ul class="list-unstyled mb-0">
+                <li class="py-2">
+                  <div class="d-flex align-items-center">
+                    <div>
+                      <div
+                        class="icon icon-shape bg-primary text-white icon-sm rounded-circle mr-3"
+                      >
+                        <i class="fas fa-file-invoice"></i>
+                      </div>
+                    </div>
+                    <div>
+                      <span class="h6 mb-0">Perfect for modern startups</span>
+                    </div>
+                  </div>
+                </li>
+                <li class="py-2">
+                  <div class="d-flex align-items-center">
+                    <div>
+                      <div
+                        class="icon icon-shape bg-primary text-white icon-sm rounded-circle mr-3"
+                      >
+                        <i class="fas fa-store-alt"></i>
+                      </div>
+                    </div>
+                    <div>
+                      <span class="h6 mb-0">Ready to be customized</span>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-6 order-lg-1">
+              <div class="card mb-0 mr-lg-5">
+                <div class="card-body p-2">
+                  <img
+                    alt="Image placeholder"
+                    src="assets/img/theme/light/screen-1-1000x800.jpg"
+                    class="img-fluid shadow rounded"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="py-6">
+          <div class="row row-grid justify-content-between align-items-center">
+            <div class="col-lg-5">
+              <h5 class="h3">A modern project management dashboard</h5>
+              <p class="lead my-4">
+                With Quick you get components and examples, including tons of
+                variables that will help you customize this theme with ease.
+              </p>
+              <ul class="list-unstyled mb-0">
+                <li class="py-2">
+                  <div class="d-flex align-items-center">
+                    <div>
+                      <div
+                        class="icon icon-shape bg-primary text-white icon-sm rounded-circle mr-3"
+                      >
+                        <i class="fas fa-file-invoice"></i>
+                      </div>
+                    </div>
+                    <div>
+                      <span class="h6 mb-0">Perfect for modern startups</span>
+                    </div>
+                  </div>
+                </li>
+                <li class="py-2">
+                  <div class="d-flex align-items-center">
+                    <div>
+                      <div
+                        class="icon icon-shape bg-primary text-white icon-sm rounded-circle mr-3"
+                      >
+                        <i class="fas fa-store-alt"></i>
+                      </div>
+                    </div>
+                    <div>
+                      <span class="h6 mb-0">Ready to be customized</span>
+                    </div>
+                  </div>
+                </li>
+                <li class="py-2">
+                  <div class="d-flex align-items-center">
+                    <div>
+                      <div
+                        class="icon icon-shape bg-primary text-white icon-sm rounded-circle mr-3"
+                      >
+                        <i class="fas fa-store-alt"></i>
+                      </div>
+                    </div>
+                    <div>
+                      <span class="h6 mb-0">Designed for every devices</span>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-6">
+              <div class="card mb-0 ml-lg-5">
+                <div class="card-body p-2">
+                  <img
+                    alt="Image placeholder"
+                    src="assets/img/theme/light/screen-2-1000x800.jpg"
+                    class="img-fluid shadow rounded"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <!-- <section class="slice slice-lg bg-section-dark pt-5 pt-lg-8">
+      
+      <div class="shape-container shape-line shape-position-top shape-orientation-inverse" >
+        
+      </div>
+      
+      <div class="container position-relative zindex-100">
+        <div class="col">
+          <div class="row justify-content-center">
+            <div class="col-md-10 text-center">
+              <div class="mt-4 mb-6">
+                <h2 class="h1 text-white">Are you ready to grow faster?</h2>
+                <h4 class="text-white mt-3">Create your own experience</h4>
+                
+                <a href="#" class="btn btn-primary btn-icon mt-4">Learn more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <!-- <section class="slice pt-0">
+      <div class="container position-relative zindex-100">
+        <div class="row">
+          <div class="col-xl-4 col-sm-6 mt-n7">
+            <div class="card">
+              <div class="d-flex p-5">
+                <div>
+                  <span class="badge badge-warning badge-pill">New</span>
+                </div>
+                <div class="pl-4">
+                  <h5 class="lh-130">Listen to the nature</h5>
+                  <p class="text-muted mb-0">
+                    Design made simple with a clean and smart HTML markup.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-sm-6 mt-sm-n7">
+            <div class="card">
+              <div class="d-flex p-5">
+                <div>
+                  <span class="badge badge-success badge-pill">Tips</span>
+                </div>
+                <div class="pl-4">
+                  <h5 class="lh-130">Rules not to follow</h5>
+                  <p class="text-muted mb-0">
+                    Design made simple with a clean and smart HTML markup.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-12 col-sm-6 mt-xl-n7">
+            <div class="card">
+              <div class="d-flex p-5">
+                <div>
+                  <span class="badge badge-danger badge-pill">Update</span>
+                </div>
+                <div class="pl-3">
+                  <h5 class="lh-130">Beware the water</h5>
+                  <p class="text-muted mb-0">
+                    Design made simple with a clean and smart HTML markup.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xl-4 col-sm-6">
+            <div class="card">
+              <div class="d-flex p-5">
+                <div>
+                  <span class="badge badge-warning badge-pill">New</span>
+                </div>
+                <div class="pl-4">
+                  <h5 class="lh-130">Listen to the nature</h5>
+                  <p class="text-muted mb-0">
+                    Design made simple with a clean and smart HTML markup.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-sm-6">
+            <div class="card">
+              <div class="d-flex p-5">
+                <div>
+                  <span class="badge badge-success badge-pill">Tips</span>
+                </div>
+                <div class="pl-4">
+                  <h5 class="lh-130">Rules not to follow</h5>
+                  <p class="text-muted mb-0">
+                    Design made simple with a clean and smart HTML markup.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-12 col-sm-6">
+            <div class="card">
+              <div class="d-flex p-5">
+                <div>
+                  <span class="badge badge-danger badge-pill">Update</span>
+                </div>
+                <div class="pl-3">
+                  <h5 class="lh-130">Beware the water</h5>
+                  <p class="text-muted mb-0">
+                    Design made simple with a clean and smart HTML markup.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <!-- <section class="slice slice-lg">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <span class="badge badge-primary badge-pill">Key features</span>
+            <h5 class="lh-180 mt-4 mb-6">
+              Quick is a premium HTML template that includes adaptable
+              components and pages for various industries, plus new ones each
+              month.
+            </h5>
+          </div>
+        </div>
+        
+        <div class="row mx-lg-n4">
+        
+          <div class="col-lg-4 col-md-6 px-lg-4">
+            <div class="card shadow-none">
+              <div class="p-3 d-flex">
+                <div>
+                  <div
+                    class="icon icon-shape rounded-circle bg-warning text-white mr-4"
+                  >
+                    <i data-feather="check"></i>
+                  </div>
+                </div>
+                <div>
+                  <span class="h6">100% Responsive</span>
+                  <p class="text-sm text-muted mb-0">Built to be customized.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 px-lg-4">
+            <div class="card shadow-none">
+              <div class="p-3 d-flex">
+                <div>
+                  <div
+                    class="icon icon-shape rounded-circle bg-primary text-white mr-4"
+                  >
+                    <i data-feather="check"></i>
+                  </div>
+                </div>
+                <div>
+                  <span class="h6">Based on Bootstrap 4</span>
+                  <p class="text-sm text-muted mb-0">Built to be customized.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 px-lg-4">
+            <div class="card shadow-none">
+              <div class="p-3 d-flex">
+                <div>
+                  <div
+                    class="icon icon-shape rounded-circle bg-danger text-white mr-4"
+                  >
+                    <i data-feather="check"></i>
+                  </div>
+                </div>
+                <div>
+                  <span class="h6">Built with SASS</span>
+                  <p class="text-sm text-muted mb-0">Built to be customized.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 px-lg-4">
+            <div class="card shadow-none">
+              <div class="p-3 d-flex">
+                <div>
+                  <div
+                    class="icon icon-shape rounded-circle bg-success text-white mr-4"
+                  >
+                    <i data-feather="check"></i>
+                  </div>
+                </div>
+                <div>
+                  <span class="h6">300+ components</span>
+                  <p class="text-sm text-muted mb-0">Built to be customized.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 px-lg-4">
+            <div class="card shadow-none">
+              <div class="p-3 d-flex">
+                <div>
+                  <div
+                    class="icon icon-shape rounded-circle bg-info text-white mr-4"
+                  >
+                    <i data-feather="check"></i>
+                  </div>
+                </div>
+                <div>
+                  <span class="h6">23+ widgets</span>
+                  <p class="text-sm text-muted mb-0">Built to be customized.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 px-lg-4">
+            <div class="card shadow-none">
+              <div class="p-3 d-flex">
+                <div>
+                  <div
+                    class="icon icon-shape rounded-circle bg-warning text-white mr-4"
+                  >
+                    <i data-feather="check"></i>
+                  </div>
+                </div>
+                <div>
+                  <span class="h6">Bootstrap Flexbox Grid</span>
+                  <p class="text-sm text-muted mb-0">Built to be customized.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-lg-4 col-md-6 px-lg-4">
+            <div class="card shadow-none">
+              <div class="p-3 d-flex">
+                <div>
+                  <div>
+                    <div
+                      class="icon icon-shape rounded-circle bg-info text-white mr-4"
+                    >
+                      <i data-feather="check"></i>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <span class="h6">Animate CSS</span>
+                  <p class="text-sm text-muted mb-0">Built to be customized.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 px-lg-4">
+            <div class="card shadow-none">
+              <div class="p-3 d-flex">
+                <div>
+                  <div>
+                    <div
+                      class="icon icon-shape rounded-circle bg-danger text-white mr-4"
+                    >
+                      <i data-feather="check"></i>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <span class="h6">Integrated plugins</span>
+                  <p class="text-sm text-muted mb-0">Built to be customized.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 px-lg-4">
+            <div class="card shadow-none">
+              <div class="p-3 d-flex">
+                <div>
+                  <div>
+                    <div
+                      class="icon icon-shape rounded-circle bg-primary text-white mr-4"
+                    >
+                      <i data-feather="check"></i>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <span class="h6">Smart HTML markup</span>
+                  <p class="text-sm text-muted mb-0">Built to be customized.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="slice slice-lg bg-section-secondary">
+      <div class="container text-center">
+        <div class="row justify-content-center mb-6">
+          <div class="col-lg-8">
+            
+            <h2 class="h1 strong-600">Complete features at your hand</h2>
+        
+            <p class="text-muted">
+              Thousands of developers around the world have already made Quick
+              the main tool for building websites.
+            </p>
+          </div>
+        </div>
+    
+        <div class="row justify-content-center">
+          <div class="col-lg-4 col-md">
+            <div class="card card-pricing text-center px-3 hover-scale-110">
+              <div class="card-header py-5 border-0 delimiter-bottom">
+                <div class="h1 text-center mb-0">
+                  $<span class="price font-weight-bolder">49</span>
+                </div>
+                <span class="h6 text-muted">Standard License</span>
+              </div>
+              <div class="card-body">
+                <ul class="list-unstyled text-sm mb-4">
+                  <li class="py-2">1 end product</li>
+                  <li class="py-2">Use for personal or a client</li>
+                  <li class="py-2">Use in a free end product</li>
+                  <li class="py-2">6 months technical support</li>
+                </ul>
+                <a
+                  href="#"
+                  class="btn btn-sm btn-warning hover-translate-y-n3 hover-shadow-lg mb-3"
+                  >Purchase now</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md">
+            <div
+              class="card card-pricing bg-dark text-center px-3 border-0 hover-scale-110"
+            >
+              <div class="card-header py-5 border-0 delimiter-bottom">
+                <div class="h1 text-white text-center mb-0">
+                  $<span class="price font-weight-bolder">590</span>
+                </div>
+                <span class="h6 text-white">Extended License</span>
+              </div>
+              <div class="card-body">
+                <ul class="list-unstyled text-white text-sm opacity-8 mb-4">
+                  <li class="py-2">1 end product</li>
+                  <li class="py-2">Use for personal or a client</li>
+                  <li class="py-2">Use in a free end product</li>
+                  <li class="py-2">
+                    Use in an end product that is
+                    <strong class="text-success text-underline--dashed"
+                      >sold</strong
+                    >
+                  </li>
+                  <li class="py-2">6 months technical support</li>
+                </ul>
+                <a
+                  href="#"
+                  class="btn btn-sm btn-white hover-translate-y-n3 hover-shadow-lg mb-3"
+                  >Purchase now</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </section> -->
+
+    <div class="mt-5 text-center">
+        <!-- <p class="mb-2">
+          Both pricings contains all 6 months free support. Need more?
+        </p> -->
+        <!-- <a href="#" class="text-primary text-underline--dashed"
+          >Contact us<i data-feather="arrow-right" class="ml-2"></i
+        ></a> -->
+      </div>
+      <footer class="position-relative" id="footer-main">
+        <div class="footer pt-lg-5 " style="background-color:#e3eef3;">
+         
+          <div id="contact" class="container pt-4">
+            <div class="row">
+              <div class="col-lg-4 mb-5 mb-lg-0">
+                <!-- Theme's logo -->
+                  <h2 style="color: rgb(61, 61, 61)">Contact Us</h2>
+                 
+                <p class="mt-4 text-sm opacity-8 pr-lg-4" style="color:  rgb(61, 61, 61);">
+                  Yinka Folawiyo Building, <br> Warehouse Road, Apapa Wharf,
+                 <br> Lagos State.<br>
+                 <br />
+                  Email: info@romicxpresslogisticsltd.com <br />
+                  Phone: +234 802 850 3261, +234 706 464 2721
+                </p>
+                
+               
+              </div>
+  
+            <hr class="divider divider-fade divider-dark my-4" />
+            <div class="row align-items-center justify-content-md-between pb-4">
+              <div class="col-md-6">
+                <div
+                  class="copyright text-sm font-weight-bold text-center text-md-left"
+                >
+                  &copy; 2020
+                  <a
+                    href="https://webpixels.io"
+                    class="font-weight-bold"
+                    target="_blank"
+                    >Webpixels</a
+                  >. All rights reserved
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    <!-- Core JS  -->
+    <script src="assets/libs/jquery/dist/jquery.min.js"></script>
+    <script src="assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/libs/svg-injector/dist/svg-injector.min.js"></script>
+    <script src="assets/libs/feather-icons/dist/feather.min.js"></script>
+    <!-- Quick JS -->
+    <script src="assets/js/quick-website.js"></script>
+    <!-- Feather Icons -->
+    <script>
+      feather.replace({
+        width: "1em",
+        height: "1em",
+      });
+    </script>
+  </body>
+</html>
